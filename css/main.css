@@ -38,7 +38,7 @@ h2 {
 h2 a {
     color:black;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 28px;
     word-spacing: .005em;
     font-family: Lato;
@@ -69,8 +69,25 @@ header nav a {
     border-bottom: 1px solid #E0E0E0;
     margin-right: 6px;
 }
-p::first-letter {
+article p::first-letter {
     font-size: 500%;
-    color: #A9A9A9;
+    color: #d9d9d9;
     float: left;
+    font-family: Lato;
+    line-height: .8em;
+    padding-right: 12px;
+}
+footer nav a {
+    color:#DAA520;
+    font-family: Lato;
+    font-size: 13px;
+}
+
+footer {
+    margin-top: 40px;
+}
+footer p {
+    color:#d9d9d9;
+    margin-bottom: 55px;
+    font-size: 14px;
 }
