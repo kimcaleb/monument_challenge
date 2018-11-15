@@ -8,7 +8,7 @@ a {
 
 h1 a {
     text-decoration: none;
-    color: #DAA520;
+    color: rgb(255, 212, 128);
     font-weight: 200;
     font-size: 43px;
     font-family: Lato;
@@ -57,7 +57,7 @@ h4  {
     text-align:right;
 }
 h4 a {
-    color:#DAA520;
+    color:rgb(255, 212, 128);
     font-size:14px;
 }
 
@@ -71,14 +71,14 @@ header nav a {
 }
 article p::first-letter {
     font-size: 500%;
-    color: #d9d9d9;
+    color: #E0E0E0;
     float: left;
     font-family: Lato;
     line-height: .8em;
     padding-right: 12px;
 }
 footer nav a {
-    color:#DAA520;
+    color: rgba(255, 212, 128);
     font-family: Lato;
     font-size: 13px;
 }
@@ -90,4 +90,10 @@ footer p {
     color:#d9d9d9;
     margin-bottom: 55px;
     font-size: 14px;
+}
+nav a:hover {
+    color:black;
+}
+footer nav {
+    color:rgba(255, 212, 128,0);
 }
