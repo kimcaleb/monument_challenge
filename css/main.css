@@ -19,6 +19,7 @@ h1 a {
 article {
     margin-right: 145px;
     border-bottom: 1px solid #E0E0E0;
+  
       
 }
 p {
@@ -37,7 +38,7 @@ h2 {
 h2 a {
     color:black;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 28px;
     word-spacing: .005em;
     font-family: Lato;
@@ -49,6 +50,7 @@ h3 {
     font-size: 30px;
     font-weight: 200;
     color:#A9A9A9;  
+    margin-bottom: -10px;
 }
 
 h4  {
@@ -65,5 +67,10 @@ header nav a {
     color:#E0E0E0; 
     font-family: Lato;
     border-bottom: 1px solid #E0E0E0;
-    word-spacing: 12em;
+    margin-right: 6px;
+}
+p::first-letter {
+    font-size: 500%;
+    color: #A9A9A9;
+    float: left;
 }
